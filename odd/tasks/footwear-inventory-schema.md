@@ -43,6 +43,7 @@ Create the approved database schema for a single-warehouse footwear inventory an
 - Role for the existing account confirmed as `superadministrador`.
 - ODD-1 completed in five new migrations; categories timestamps were corrected before final verification.
 - ODD-2 passed: Pint made no changes, batch 2 rolled back and reapplied without changing baseline rows, all eight migrations are `Ran`, integrity and foreign-key checks passed, and the test suite passed (2 tests, 2 assertions).
+- Work-unit commit: `e2849b0` (`feat(inventory): add footwear catalog schema`).
 - SQLite limitation: `unsignedInteger()` is materialized as `INTEGER`, so SQLite does not enforce non-negative values by itself.
 - Native Gentle AI review preflight was unavailable after two safe retries because the negotiated freeze could not open the read-only filesystem; no review authority was created.
 
