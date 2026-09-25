@@ -44,7 +44,8 @@ Implement the Eloquent models and relationships for the footwear inventory schem
 - ODD-1/ODD-2 completed by bounded writer: added four inventory models, updated `User`, and added focused Pest relationship/cast coverage.
 - Writer reported `vendor/bin/pint --dirty --format agent` passed and `php artisan test --compact tests/Feature/Models/EloquentInventoryRelationshipsTest.php` passed (1 test, 18 assertions).
 - Independent verifier inspected models/tests and ran `php artisan test tests/Feature/Models/EloquentInventoryRelationshipsTest.php --compact`: passed (1 test, 18 assertions). Pint was not rerun by the verifier because it can mutate files in read-only verification mode.
+- Work-unit commit: `e71b110` (`feat(inventory): add Eloquent models and relationships`).
 
 ## Next step
 
-Report completed model relationships and verification results. No commit was created because the user did not explicitly request one.
+Report completed model relationships and verification results.
